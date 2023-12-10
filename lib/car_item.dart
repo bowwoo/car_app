@@ -52,7 +52,9 @@ class CarItem extends StatelessWidget {
                         ),
                         onPressed: onFavorite,
                       ),
-                      Text(car.isFavorite ? '1' : '0'),
+                      Text(car.isFavorite
+                          ? '1'
+                          : '0'), // Đây chỉ là ví dụ, bạn cần một biến để theo dõi số lượng 'thích'
                     ],
                   ),
                 ],
